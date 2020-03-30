@@ -1,6 +1,7 @@
 /*
 
 21252b темно синий фон
+56b6c2 light blue
 e06c75 красный
 e2c08d желтый
 73c990 зеленый
@@ -55,19 +56,97 @@ table {
   border-spacing: 0;
 }
 
-.section-t {
+/* white */
+
+.white {
   border: 1px solid #fff;
   margin: 0;
 }
 
-.section-t1 {
+.white-b1 {
   border: 1px solid #fff;
   background: #fff;
   color: #21252b;
   padding: 0 5px 0;
 }
 
-.section-t2 {
+.white-b2 {
   border: 0px solid #fff;
+  padding: 0 5px 0;
+}
+
+/* yellow */
+
+.yellow {
+  /* border: 1px solid #fff; */
+  margin: 0;
+}
+
+.yellow-b1 {
+  border: 1px solid #e2c08d;
+  background: #e2c08d;
+  color: #21252b;
+  padding: 0 5px 0;
+}
+
+.yellow-b2 {
+  border: 1px solid #e2c08d;
+  padding: 0 5px 0;
+}
+
+/* blueblue */
+
+.blue {
+  /* border: 1px solid #e06c75; */
+  margin: 0;
+}
+
+.blue-b1 {
+  border: 1px solid #56b6c2;
+  background: #56b6c2;
+  color: #21252b;
+  padding: 0 5px 0;
+}
+
+.blue-b2 {
+  border: 1px solid #56b6c2;
+  padding: 0 5px 0;
+}
+
+/* green */
+
+.green {
+  /* border: 1px solid #fff; */
+  margin: 0;
+}
+
+.green-b1 {
+  border: 1px solid #73c990;
+  background: #73c990;
+  color: #21252b;
+  padding: 0 5px 0;
+}
+
+.green-b2 {
+  border: 1px solid #73c990;
+  padding: 0 5px 0;
+}
+
+/* red */
+
+.red {
+  /* border: 1px solid #e06c75; */
+  margin: 0;
+}
+
+.red-b1 {
+  border: 1px solid #e06c75;
+  background: #e06c75;
+  color: #21252b;
+  padding: 0 5px 0;
+}
+
+.red-b2 {
+  border: 1px solid #e06c75;
   padding: 0 5px 0;
 }
