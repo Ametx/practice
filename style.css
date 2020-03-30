@@ -1,0 +1,73 @@
+/*
+
+21252b темно синий фон
+e06c75 красный
+e2c08d желтый
+73c990 зеленый
+
+Семантические теги в HTML5 и CSS3
+section, article, header, footer
+nav, aside, hgroup
+time, figure, video, audio, canvas
+
+background: linear-gradient(45deg, #e2c08d, #e06c75);
+
+<abbr title="(: шутки :)">штуки</abbr>
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+html, body {
+  background-color: #fff;
+  color: #e2c08d;
+  font-size: 14px;
+  font-family: Menlo, Consolas, DejaVu Sans Mono, monospace;
+  margin: 0;
+  height: 100vh;
+  display: block;
+  /* overflow: hidden; */
+  /* --bw1: 20.3%;
+  --bw2: calc(var(--bw1) + 13%);
+  --bw3: calc(var(--bw2) + 13%); */
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background: #21252b;
+}
+
+.spacer {
+  margin: auto;
+  padding: 10px 0 10px;
+  /* border: 1px solid red; */
+  width: 210px;
+}
+
+table {
+  margin: auto;
+  padding: 0;
+  border-spacing: 0;
+}
+
+.section-t {
+  border: 1px solid #fff;
+  margin: 0;
+}
+
+.section-t1 {
+  border: 1px solid #fff;
+  background: #fff;
+  color: #21252b;
+  padding: 0 5px 0;
+}
+
+.section-t2 {
+  border: 0px solid #fff;
+  padding: 0 5px 0;
+}
